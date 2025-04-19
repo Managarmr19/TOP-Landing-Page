@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+img {
+    width: 200px;
+    border: solid #a3a3a3;
+    border-radius: 8px;
+}
+
+p {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    padding: 20px 200px;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+.azul {
+    background-color: #1F2937;
+}
+
+#header-logo {
+    color: #F9F4F8;
+    font-size: 24px;
+    flex: 1;
+    margin: 0;
+}
+
+#hero-main-text {
+    color: #F9F4F8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero-secondary {
+    font-weight: 18px;
+    color: #E5E7EB;
+}
+
+#conquest {
+    width: 500px;
+}
+
+.desc {
+    justify-content: center;
+}
+
+.botoncio {
+    padding: 12px 24px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+.random-info {
+    text-align: center;
+    padding-top: 10px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.img-desc {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0 40px 0;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.copypasta {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+    flex-direction: column;
+}
+
+.copypasta-texto {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    flex: 1;
+}
+
+.copypasta-autor {
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cosa-seria {
+    display: flex;
+    background-color: #3882F6;
+    margin:  80px 150px;
+    padding: 30px 140px;
+    border-radius: 8px;
+    color: #F9F4F8;
+}
+
+.pio {
+    padding: 5px 20px;
+    color: white;
+    border: 2px solid white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+#cebecita {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#izquierdacoño {
+    text-align: start;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
